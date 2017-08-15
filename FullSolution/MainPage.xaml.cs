@@ -52,13 +52,13 @@ namespace Lesson_201
 
                 for (int i = 0; i < 100; i++)
                 {
-                    //internetLed1.Blink();
-                    //internetLed2.Blink();
-                    internetLed1.LedState = InternetLed.eLedState.On;
+                    internetLed1.Blink();
+                    internetLed2.Blink();
+                    //internetLed1.LedState = InternetLed.eLedState.On;
                     await Task.Delay(blinkDelay);
-                    internetLed1.LedState = InternetLed.eLedState.Off;
-                    internetLed2.LedState = InternetLed.eLedState.On;
-                    internetLed2.LedState = InternetLed.eLedState.Off;
+                    //internetLed1.LedState = InternetLed.eLedState.Off;
+                    //internetLed2.LedState = InternetLed.eLedState.On;
+                    //internetLed2.LedState = InternetLed.eLedState.Off;
                     
                 }
 
